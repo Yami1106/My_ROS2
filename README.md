@@ -1,51 +1,43 @@
 <div align="center">
 
-<pre>
-╔═════════════════╗
-║     🤖  My_ROS2  🤖     ║
-╚═════════════════╝
-</pre>
+# ROS2 Packages
 
-## ROS2 Robotics Packages
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white)](https://docs.ros.org/en/humble/)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat&logo=ros&logoColor=white)
+*A growing collection of ROS2 packages — nodes, behaviours, and perception pipelines built during the WPI M.S. Robotics program.*
 
 </div>
 
 ---
 
-## About
+## Contents
 
-A collection of **ROS2 (Robot Operating System 2)** packages covering navigation, perception, and control. Designed for use with real robot platforms and simulation environments (Gazebo / RViz2).
+This repository collects ROS2 work across multiple projects, including:
 
----
-
-## Features
-
-- Custom ROS2 nodes for perception and control
-- Launch files for full-stack robot bringup
-- Integration with nav2 navigation stack
-- Simulation support via Gazebo
+- Custom ROS2 nodes and message types
+- Perception pipelines (camera, lidar, sensor fusion)
+- Robot behaviour implementations
+- Launch file configurations
 
 ---
 
-## Tech Stack
+## Notable work
 
-**Python** · **C++** · **ROS2** · **Gazebo** · **RViz2**
-
----
-
-## Tags
-
-`Robotics`  `ROS2`  `Navigation`  `Autonomous Systems`
+**Pepper Robot (Robocare Lab, WPI)**
+Contributed to behaviour design and multimodal perception for the SoftBank Pepper Robot:
+- Configured onboard camera, microphone, and joint actuator systems
+- Implemented speech, gesture, and visual feedback modalities
+- Debugged behavioural failure modes through iterative lab testing
 
 ---
 
-## Author
+## Tech stack
 
-**Ashish (Yami1106)**
-[GitHub](https://github.com/Yami1106) · [Portfolio](https://yamiportfolio.netlify.app/)
+`Python` · `ROS2 (Humble/Iron)` · `rclpy` · `colcon`
 
 ---
 
-*Generated with [Automate_contribution](https://github.com/Yami1106/Automate_contribution)*
+<div align="center">
+<a href="https://github.com/Yami1106">Ashish Sukumar</a> · M.S. Robotics Engineering @ WPI
+</div>
